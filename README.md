@@ -1,5 +1,7 @@
 # Analyse de l'Employabilité Data Science
 
+![Dashboard Power BI](docs/images/employablité_data_powerbi.png)
+
 Ce projet vise à analyser le marché de l'emploi en Data Science en France à travers la collecte, le traitement et la visualisation de données d'offres d'emploi.
 
 ## Objectifs
