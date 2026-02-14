@@ -1,33 +1,27 @@
-# Employabilité dans la Data
+# Analyse de l'Employabilité Data Science
 
-Dashboard d'analyse du marché de l'emploi Data Science en France.
+Ce projet vise à analyser le marché de l'emploi en Data Science en France à travers la collecte, le traitement et la visualisation de données d'offres d'emploi.
 
-## Objectif
+## Objectifs
 
-Analyser le marché de l'emploi data science via :
-- Scraping d'offres d'emploi (WTTJ, LinkedIn)
-- Nettoyage et structuration des données
-- Visualisation Power BI
+*   **Collecte de données** : Scraping automatisé d'offres d'emploi (Welcome to the Jungle, APEC, etc.).
+*   **Traitement** : Nettoyage, structuration et enrichissement des données.
+*   **Analyse** : Visualisation interactive via Power BI pour identifier les tendances (salaires, compétences, localisation, types de contrats).
 
-## Technologies
+## Structure du Projet
 
-- Python 3.x
-- BeautifulSoup4, Selenium
-- Pandas
-- Power BI
+*   `data/` : Contient les données brutes et traitées (`.csv`).
+*   `scripts/` : Scripts Python pour le scraping et le traitement des données.
+*   `dashboard/` : Rapports et fichiers Power BI (`.pbix`).
+*   `docs/` : Documentation du projet.
 
-## Structure
-employabilite-data/
-├── data/          # Données scrapées
-├── scripts/       # Scripts Python
-├── dashboard/     # Fichiers Power BI
-└── README.md
+## Technologies Utilisées
 
-##  Status du projet
+*   **Python** (BeautifulSoup4, Selenium, Pandas)
+*   **Power BI** (Visualisation de données)
+*   **Git** (Gestion de version)
 
-Projet en cours de développement.
+## Auteur
 
-##  Auteure 
-
-Liza Bérénice Makani 
+**Liza Bérénice Makani**
 Étudiante Ingénieure - ESIEA (IA & Data Science)

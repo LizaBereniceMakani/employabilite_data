@@ -20,8 +20,13 @@ data/raw/*
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs and Debug
 *.log
+*.txt
+!requirements.txt
+!README.md
+!*LICENSE*
 
 # Power BI temp files
 *.tmp
+*.pbix.tmp
